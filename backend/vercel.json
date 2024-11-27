@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name":"7sea-shop",
+    "builds":[
+        {"src":"server.js","use":"@vercel/node"}
+    ],
+    "routes":[
+        {"src":"/(.*)","dest":"/server.js"}
+    ]
+}
